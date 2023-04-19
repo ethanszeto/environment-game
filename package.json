@@ -2,9 +2,10 @@
   "name": "environment-game",
   "version": "1.0.0",
   "description": "Environment Game (fun project)",
-  "main": "class.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start":"nodemon localserver.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/Boeufin/environment-game#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "helmet": "^6.1.5",
     "prettier": "^2.8.7"
   },
   "devDependencies": {
